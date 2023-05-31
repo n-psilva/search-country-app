@@ -9,7 +9,7 @@ function App() {
   
    useEffect(() => {
     const request_headers = new Headers();
-    const api_key = "IN41ssUcD81z6eRskFSyC7rL8OKutP8nju4y3aGl";
+    const api_key = "";
     request_headers.append("Authorization", `Bearer ${api_key}`);
     request_headers.append("Content-Type", "application/json");
 
